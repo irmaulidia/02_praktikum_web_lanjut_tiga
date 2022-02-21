@@ -34,6 +34,10 @@ Route::prefix('/category')->group(function(){
         return redirect('https://www.educastudio.com/category/marbel-edu-games');
     });
 
+    Route::get('/marbel-and-friends-kids-games', function(){
+        return redirect('https://www.educastudio.com/category/marbel-and-friends-kids-games');
+    });
+
     Route::get('/riri-story-books', function(){
         return redirect('https://www.educastudio.com/category/riri-story-books');
     });
